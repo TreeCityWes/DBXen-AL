@@ -59,7 +59,7 @@ XEN_ABI = [
 ]
 
 # Global variables
-GAS_PRICE_MULTIPLIER = 1  # Multiplier to ensure the gas price is slightly above the current network price
+GAS_PRICE_MULTIPLIER = 1  # Multiplier to send with higher gas price. 1.1 = 10% increase. 
 MAX_GAS_PRICE = w3.to_wei('10.0', 'gwei')  # Default max gas price
 GAS_PRICE = w3.eth.gas_price  # Current gas price
 
