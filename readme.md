@@ -1,62 +1,67 @@
-DBXen Access List Creation Tool
-Overview
+# DBXen Access List Creation Tool
+
+## Overview
 The DBXen Access List Creation Tool is designed to help users burn XEN tokens more efficiently by leveraging access lists. This tool empowers everyone to burn XEN by creating access lists, making the process accessible and leveling the playing field in the XEN ecosystem.
 
-Features
-Approve XEN tokens for burning
-Create access lists by burning a batch of XEN tokens
-Burn multiple batches using saved access lists to reduce gas fees
-Recalculate protocol fees dynamically based on the updated gas fees
-User-friendly interface with color-coded outputs
-Prerequisites
-Python 3.x
-web3 library
-dotenv library
-colorama library
-Installation
-Clone the repository:
+## Features
+- Approve XEN tokens for burning
+- Create access lists by burning a batch of XEN tokens
+- Burn multiple batches using saved access lists to reduce gas fees
+- Recalculate protocol fees dynamically based on the updated gas fees
+- User-friendly interface with color-coded outputs
 
-sh
-Copy code
-git clone https://github.com/yourusername/DBXen-Access-List-Creation-Tool.git
-cd DBXen-Access-List-Creation-Tool
-Create and activate a virtual environment (optional but recommended):
+## Prerequisites
+- Python 3.x
+- `web3` library
+- `dotenv` library
+- `colorama` library
 
-sh
-Copy code
-python -m venv env
-source env/bin/activate  # On Windows, use `env\Scripts\activate`
-Install the required Python libraries:
+## Installation
 
-sh
-Copy code
-pip install web3 python-dotenv colorama
-Create a .env file in the root directory of the project and add the following:
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/yourusername/DBXen-Access-List-Creation-Tool.git
+    cd DBXen-Access-List-Creation-Tool
+    ```
 
-env
-Copy code
-PRIVATE_KEY=your_private_key
-PUBLIC_KEY=your_public_key
-RPC_URL=your_rpc_url
-Usage
-Run the script:
+2. Create and activate a virtual environment (optional but recommended):
+    ```sh
+    python -m venv env
+    source env/bin/activate  # On Windows, use `env\Scripts\activate`
+    ```
 
-sh
-Copy code
-python dxn-al.py
-Follow the on-screen instructions to:
+3. Install the required Python libraries:
+    ```sh
+    pip install web3 python-dotenv colorama
+    ```
 
-Set the max gas price
-Check if an access list exists
-Approve XEN tokens
-Burn 1 batch to create an access list
-Burn batches using the access list
-Tip the creator
-Example
+4. Create a `.env` file in the root directory of the project and add the following:
+    ```env
+    PRIVATE_KEY=your_private_key
+    PUBLIC_KEY=your_public_key
+    RPC_URL=your_rpc_url
+    ```
+
+## Usage
+
+1. Run the script:
+    ```sh
+    python dxn-al.py
+    ```
+
+2. Follow the on-screen instructions to:
+    - Set the max gas price
+    - Check if an access list exists
+    - Approve XEN tokens
+    - Burn 1 batch to create an access list
+    - Burn batches using the access list
+    - Tip the creator
+
+## Example
+
 Upon running the script, you will see a menu with options to perform different actions. Here’s an example of what the menu looks like:
 
-plaintext
-Copy code
+```plaintext
 =========================================================
   DBXen Access List Creation Tool
   Created by TreeCityWes.eth for the Xen Ecosystem
