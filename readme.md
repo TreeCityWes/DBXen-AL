@@ -1,6 +1,8 @@
 # DBXen Access List Creation Tool
 
 ## Overview
+THIS CODE IS STILL BEING TESTED. TEST AT YOUR OWN RISK. 
+
 The DBXen Access List Creation Tool is designed to help users burn XEN tokens more efficiently by leveraging access lists. This tool empowers everyone to burn XEN by creating access lists, making the process accessible and leveling the playing field in the XEN ecosystem.
 
 ## Features
